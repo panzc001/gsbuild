@@ -1,5 +1,5 @@
 <template>
-    <div class="wraper">
+    <div class="wraper top_bg-cor">
         <page-header :isActive="isActive"></page-header>
         <img src="../assets/dj_1.png" class="dj_title animated zoomIn"/>
         <div class="dj_ctn">

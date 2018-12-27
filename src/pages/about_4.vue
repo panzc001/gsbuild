@@ -1,5 +1,5 @@
 <template xmlns="http://www.w3.org/1999/html">
-    <div class="wraper">
+    <div class="wraper top_bg-cor">
         <page-header :isActive="isActive"></page-header>
         <!--top-menu-->
         <div class="about_nav-box">

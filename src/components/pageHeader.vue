@@ -2,7 +2,7 @@
     <div class="header">
         <div class="nav_box">
             <div class="top fn-clear">
-                <img class="name_tel" src="../assets/logo.png"/>
+                <img class="name_tel" src="../assets/logo_1.png"/>
                 <ul class="nav">
                     <li :class="{active: isActive.index}">
                         <a href="/">
@@ -15,9 +15,9 @@
                             <span>关于我们</span>
                         </a>
                         <i></i>
-                        <div class="pump_slide">
+                        <div class="pump_slide about_us">
                             <div class="lis">
-                                <div class="bbox about_us">
+                                <div class="bbox">
                                     <a href="/about_3">企业概况</a>
                                     <a href="/about_6">公司荣誉</a>
                                     <a href="/about_4">公司战略</a>
@@ -33,16 +33,15 @@
                         <a href="/about_7">
                             <span>党建工作</span>
                         </a>
-                        <i></i>
                     </li>
                     <li :class="{active: isActive.xw}">
                         <a href="#">
                             <span>新闻中心</span>
                         </a>
                         <i></i>
-                        <div class="pump_slide">
+                        <div class="pump_slide xw-cet">
                             <div class="lis">
-                                <div class="bbox xw-cetn">
+                                <div class="bbox">
                                     <a href="/news_5">新闻中心</a>
                                     <a href="/news_2">公司新闻</a>
                                     <a href="/news_3">集团新闻</a>
@@ -56,19 +55,18 @@
                         <a href="#">
                             <span>产品中心</span>
                         </a>
-                        <i></i>
                     </li>
                     <li :class="{active: isActive.zz}">
                         <a href="/zz-serve-_1">
                             <span>制造+服务</span>
                         </a>
                         <i></i>
-                        <div class="pump_slide">
+                        <div class="pump_slide zz-serve">
                             <div class="lis">
-                                <div class="bbox zz-serve">
-                                    <a href="/zz-serve-_1">环卫装备制造+环卫产业服务</a>
-                                    <a href="/zz-serve-_2">混凝土装备制造+混凝土运输服务</a>
-                                    <a href="/zz-serve-_3">甘肃高漠环境工程有限公司</a>
+                                <div class="bbox">
+                                    <a href="/zz-serve_1">环卫装备制造+环卫产业服务</a>
+                                    <a href="/zz-serve_2">混凝土装备制造+混凝土运输服务</a>
+                                    <a href="/zz-serve_3">甘肃高漠环境工程有限公司</a>
                                 </div>
                             </div>
                         </div>
@@ -78,9 +76,9 @@
                             <span>科技+研发</span>
                         </a>
                         <i></i>
-                        <div class="pump_slide">
+                        <div class="pump_slide  kj-cetn">
                             <div class="lis">
-                                <div class="bbox kj-cetn">
+                                <div class="bbox">
                                     <a href="/kj-yf_1">科技+研发</a>
                                     <a href="/kj-yf_2">建筑机械工程实验室</a>
                                     <a href="/kj-yf_3">研究成果专利</a>
@@ -92,13 +90,11 @@
                         <a href="#">
                             <span>营销服务</span>
                         </a>
-                        <i></i>
                     </li>
                     <li :class="{active: isActive.lx}">
                         <a href="#">
                             <span>联系我们</span>
                         </a>
-                        <i></i>
                     </li>
                 </ul>
                 <a class="lang">EN</a>

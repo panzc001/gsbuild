@@ -1,5 +1,5 @@
 <template>
-    <div class="wraper">
+    <div class="wraper top_bg-cor">
         <page-header :isActive="isActive"></page-header>
         <div class="about_nav-box">
             <div class="about_ctn">

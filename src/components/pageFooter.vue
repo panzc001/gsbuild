@@ -1,6 +1,14 @@
 <template>
     <div class="footer">
         <div class="cnt_show">
+            <div class="normal_lx">
+                <h1>常用链接</h1>
+                <p>
+                    <a href="#">联系我们</a>
+                    <a href="#">网站地图</a>
+                    <a href="#">负责声明</a>
+                </p>
+            </div>
             <ul class="fot_nav">
                 <li>
                     <div class="sm_list">
@@ -51,17 +59,22 @@
         <div class="bot_bt">
             <div class="btt_wrap">
                 <ul class="rig_tt">
-                    <li>
-                        <img src="../assets/wx.png"/>
-                        <img src="../assets/wb.png"/>
-                    </li>
                     <li>服务热线：400-888-2961</li>
                 </ul>
                 <ul class="lef_tt">
-                    <li>Copyright 2018 All r</li>
+                    <li>Copyright 2018 All rights reserved</li>
                     <li>甘ICP备12345678号</li>
                 </ul>
             </div>
         </div>
     </div>
 </template>
+<script>
+    import $ from 'jquery'
+
+    export default {
+        mounted() {
+            $('.normal_lx').css('height', $('.fot_nav').height());
+        }
+    }
+</script>
