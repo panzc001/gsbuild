@@ -161,50 +161,50 @@
                 list1:
                     [
                         {
-                            time: '2017-06-08',
-                            title: '标题标题标题标题标题标题标题标题标题标题',
-                            info: '内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容',
+                            time: '2018-12-06',
+                            title: '甘肃建投重工科技有限公司参加第九届bauma CHINA',
+                            info: 'bauma CHINA 2018，第九届中国国际工程机械、建材机械、矿山机械、工程车辆及设备博览会已于2018年11月27-30日在上海新国际博览中心成功举办。',
                         },
                         {
-                            time: '2017-06-08',
-                            title: '标题标题标题标题标题标题标题标题标题标题',
-                            info: '内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容',
+                            time: '2018-11-27',
+                            title: '祝贺甘肃建投重工科技有限公司获得“重合同守信用企业”荣誉称号',
+                            info: '近日，我公司被长风国际信用评价集团有限公司授予“重合同守信用企业”荣誉称号，成为全省同行业中获此殊荣的佼佼者。',
 
                         },
                         {
-                            time: '2017-06-08',
-                            title: '标题标题标题标题标题标题标题标题标题标题',
-                            info: '内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容',
+                            time: '2018-11-21',
+                            title: '甘肃建投重工科技有限公司参加第二十届中国国际高新技术成果交易会',
+                            info: '2018年11月14日甘肃建投重工科技有限公司亮相第二十届中国国际高新技术成果交易会。本次公司参展的项目是最新研发的洗扫车，该车利用激光实时成像原理，达到自动控制扫盘自动收缩动作，此新兴技术引领了信息化和工业化的深度融合，为制造业从“生产型”向“服务型”转变提供技术支撑，推动了产业结构升级，且该项目荣获高新技术成果交易会《优秀产品奖》。',
 
                         },
                         {
-                            time: '2017-06-08',
-                            title: '标题标题标题标题标题标题标题标题标题标题',
-                            info: '内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容',
+                            time: '2018-11-15',
+                            title: '甘肃省发改委一行调研甘肃建投重工科技有限公司',
+                            info: '11月14日下午，甘肃省发展与改革委员会副主任汪尚学一行调研甘肃建投重工科技有限公司。兰州新区管委会、甘肃建投工业处、甘肃建投新区公司、甘肃建投重工科技公司相关领导陪同调研。',
                         }
                     ],
                 list2:
                     [
                         {
+                            time: '2018-12-04',
+                            titleHref: '#',
+                            title: '肃建投与兰州市棚改项目洽谈会召开',
+                            desc: '助力全省棚改攻坚战 积极参与兰州市棚改建设',
+                            imgUrl: require("../assets/jtnews_1.jpg"),
+                        },
+                        {
                             time: '2018-12-01',
-                            titleHref: 'www.baidu.com',
-                            title: '标题标题标题标题标题标题标题标题标题标题',
-                            desc: 'jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍',
-                            imgUrl: require("../assets/bann01.png"),
+                            titleHref: '#',
+                            title: '甘肃建投召开清欠工作会议',
+                            desc: '11月29日，甘肃建投召开清欠工作会议，分析今年1-10月份集团总公司清欠工作开展情况，通报今年下半年清欠工作督导检查情况，结合当前清欠工作形势，安排部署下一阶段清欠工作。',
+                            imgUrl: require("../assets/jtnews_3.jpg"),
                         },
                         {
-                            time: '2018-12-02',
-                            titleHref: 'www.baidu.com',
-                            title: '标题标题标题标题标题标题标题标题标题标题',
-                            desc: 'jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍',
-                            imgUrl: require("../assets/bann01.png"),
-                        },
-                        {
-                            time: '2018-12-03',
-                            titleHref: 'www.baidu.com',
-                            title: '标题标题标题标题标题标题标题标题标题标题',
-                            desc: 'jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍',
-                            imgUrl: require("../assets/bann01.png"),
+                            time: '2018-11-30',
+                            titleHref: '#',
+                            title: '甘肃建投编制的我省13项工程建设地方标准发布实施',
+                            desc: '11月27日上午，甘肃省工程建设标准管理办公室、甘肃建投举行工程建设地方标准发布会，由甘肃建投及司属单位共同编制完成的《建筑地基基础工程施工工艺规程》等13项规程，经省建设厅、省质量技术监督局共同审定，批准为甘肃省地方标准，自2018年5月1日起实施。',
+                            imgUrl: require("../assets/jtnews_2.jpg"),
                         }],
 
 
@@ -226,25 +226,25 @@
                 list4:
                     [
                         {
-                            time: '2018-12-22',
-                            titleHref: 'www.baidu.com',
-                            title: '标题标题标题标题标题标题标题标题标题标题',
-                            desc: 'jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍',
-                            imgUrl: require("../assets/bann01.png"),
+                            time: '2018-11-27',
+                            titleHref: '#',
+                            title: '人民日报关于垃圾分类最新盘点：创新制度 让垃圾分类成新时尚',
+                            desc: '有了“桶长”，垃圾可以追溯到户；有了“垃圾银行”，垃圾可以兑换成牙膏、香皂等生活用品……近期，全国各地不断创新垃圾分类的制度设计和科技手段，使垃圾分类迈上了新台阶，也让垃圾分类逐渐成了社会新时尚……',
+                            imgUrl: require("../assets/hynews_1.jpg"),
                         },
                         {
-                            time: '2018-12-22',
-                            titleHref: 'www.baidu.com',
-                            title: '标题标题标题标题标题标题标题标题标题标题',
-                            desc: 'jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍',
-                            imgUrl: require("../assets/bann01.png"),
+                            time: '2018-11-20',
+                            titleHref: '#',
+                            title: '世界厕所日丨“厕所革命”正当时，Nature is calling~',
+                            desc: '在改革开放40周年的春风里，在首届进博会的余温中，2018年11月19日，迎来了第六个“世界厕所日”。',
+                            imgUrl: require("../assets/hynews_2.jpg"),
                         },
                         {
-                            time: '2018-12-22',
-                            titleHref: 'www.baidu.com',
-                            title: '标题标题标题标题标题标题标题标题标题标题',
-                            desc: 'jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍jieshao介绍',
-                            imgUrl: require("../assets/bann01.png"),
+                            time: '2018-11-08',
+                            titleHref: '#',
+                            title: '习近平：垃圾分类就是新时尚，上海要抓实办好这件事！',
+                            desc: '6日上午，习近平来到虹口区市民驿站嘉兴路街道第一分站。几位年轻党员在交流社区垃圾分类推广的做法。习近平仔细听他们介绍自己的做法，一位小伙子告诉总书记，参加公益活动对年轻人来说都是新时尚。习近平表示，垃圾分类工作就是新时尚。我关注着这件事，希望上海抓实办好。',
+                            imgUrl: require("../assets/hynews_3.jpg"),
                         }]
             }
         },

@@ -15,9 +15,13 @@
                 </div>
             </div>
         </div>
-
         <!--地图-->
-        <div class="mapbox"></div>
+        <div class="mapbox">
+            <div :style="{width:'1200px',height:' 957.63px'}" class="animated fadeInLeft">
+                <el-amap vid="amap" :plugin="plugin" class="amap-demo" :center="center">
+                </el-amap>
+            </div>
+        </div>
         <!--搜索+切换-->
         <div class="all">
             <!--城市查询-->
@@ -27,18 +31,18 @@
                             <em>省区</em>
                             <ul>
                                  <li>甘肃省</li>
-                                <li>山西省</li>
+                                <li>青海省</li>
                                 <li>陕西省</li>
-                                <li>浙江省</li>
+                                <li>河南省</li>
                             </ul>
                         </span>
                     <span>
                             <em>城市</em>
                         <ul>
                         <li>兰州市</li>
-                        <li>定西市</li>
-                        <li>白银市</li>
-                        <li>陇西县</li>
+                        <li>西宁市</li>
+                        <li>西安市</li>
+                        <li>郑州市</li>
                         </ul>
                         </span>
                     <span class="input_sea">
@@ -59,15 +63,15 @@
                     <ul>
                         <li>
                             <h3>自装卸式垃圾维修手册</h3>
-                            <p>句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子句子</p>
+                            <p>例行保养内容及注意事项</p>
                         </li>
                         <li>
                             <h3>自装卸式垃圾维修手册</h3>
-                            <p>句子句子句子句子句子句子句子句子句子句子句子句子句子句子</p>
+                            <p>例行保养内容及注意事项</p>
                         </li>
                         <li>
                             <h3>自装卸式垃圾维修手册</h3>
-                            <p>句子句子句子句子句子句子句子句子句子句子句子句子句子句子</p>
+                            <p>例行保养内容及注意事项</p>
                         </li>
                     </ul>
                 </div>
@@ -111,7 +115,7 @@
         <div class="ask">
             <p>欢迎进行产品服务在线咨询</p>
             <div>
-                <a><span>TEL</span> 400 888 2961</a>
+                <a><span>TEL:</span> 400 888 2961</a>
                 <a>为你提供产品服务专业的问题解答</a>
             </div>
         </div>
@@ -140,6 +144,39 @@
                     yx: true,
                     lx: false,
                 },
+                center: [103.845257,36.055688],
+                lng: 0,
+                lat: 0,
+                loaded: false,
+                plugin: [{
+                    enableHighAccuracy: true,//是否使用高精度定位，默认:true
+                    timeout: 100,          //超过10秒后停止定位，默认：无穷大
+                    maximumAge: 0,           //定位结果缓存0毫秒，默认：0
+                    convert: true,           //自动偏移坐标，偏移后的坐标为高德坐标，默认：true
+                    showButton: true,        //显示定位按钮，默认：true
+                    buttonPosition: 'RB',    //定位按钮停靠位置，默认：'LB'，左下角
+                    showMarker: true,        //定位成功后在定位到的位置显示点标记，默认：true
+                    showCircle: true,        //定位成功后用圆圈表示定位精度范围，默认：true
+                    panToLocation: true,     //定位成功后将定位到的位置作为地图中心点，默认：true
+                    zoomToAccuracy:true,//定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：f
+                    extensions:'all',
+                    pName: 'Geolocation',
+                    events: {
+                        init(o) {
+                            // o 是高德地图定位插件实例
+                            o.getCurrentPosition((status, result) => {
+                                console.log(result)
+                                if (result && result.position) {
+                                    self.lng = result.position.lng;
+                                    self.lat = result.position.lat;
+                                    self.center = [self.lng, self.lat];
+                                    self.loaded = true;
+                                    self.$nextTick();
+                                }
+                            });
+                        }
+                    }
+                }]
             }
         },
         mounted() {

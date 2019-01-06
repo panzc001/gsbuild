@@ -17,7 +17,7 @@
         </div>
         <!--年份切换-->
         <div class="year_change-wrap">
-            <div class="ange-wrap">
+            <div class="ange-wrap">*
                 <ul class="swiper-wrapper">
                     <li class="swiper-slide" data-year="1">
                         <a>
@@ -481,8 +481,7 @@
     import animate from 'animate.css'
     import $ from 'jquery'
     import Swiper from 'swiper'
-
-    export default {
+     export default {
         components: {pageHeader, pageFooter},
         data() {
             return {
@@ -510,7 +509,7 @@
                     prevEl: '.btn_prev',
                 },
                 on: {
-                    slideChangeTransitionEnd: function () {
+                    slideChangeTransitionEnd: function (){
                         let index = $('.ange-wrap li').eq(this.activeIndex).attr('data-year');
                         $('.year_box').eq(index-1).show().siblings().hide();
                     },

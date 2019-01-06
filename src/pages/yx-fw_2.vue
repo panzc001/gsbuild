@@ -16,7 +16,12 @@
             </div>
         </div>
         <!--地图-->
-        <div class="mapbox"></div>
+        <div class="mapbox">
+            <div :style="{width:'1200px',height:' 957.63px'}" class="animated fadeInLeft">
+                    <el-amap vid="amap" :plugin="plugin" class="amap-demo" :center="center">
+                    </el-amap>
+                </div>
+        </div>
         <!--搜索+切换-->
         <div class="all thing">
             <!--城市查询-->
@@ -26,18 +31,18 @@
                             <em>省区</em>
                             <ul>
                                  <li>甘肃省</li>
-                                <li>山西省</li>
+                                <li>青海省</li>
                                 <li>陕西省</li>
-                                <li>浙江省</li>
+                                <li>河南省</li>
                             </ul>
                         </span>
                     <span>
                             <em>城市</em>
                         <ul>
                         <li>兰州市</li>
-                        <li>定西市</li>
-                        <li>白银市</li>
-                        <li>陇西县</li>
+                        <li>西宁市</li>
+                        <li>西安市</li>
+                        <li>郑州市</li>
                         </ul>
                         </span>
                     <span class="input_sea">
@@ -52,43 +57,43 @@
                     <p><span>【销售及服务】</span>甘肃办事处</p>
                     <p>
                         <span>  授权区域：兰州</span>
-                        <span>电话：0931-12341234 </span>
-                        <span>兰州七里河兰州中心</span>
+                        <span>电话：18139996899（许主任） </span>
+                        <span>甘肃省兰州市七里河兰州中心3306室</span>
                     </p>
                 </li>
                 <li>
-                    <p><span>【销售及服务】</span>甘肃办事处</p>
+                    <p><span>【销售及服务】</span>青海办事处</p>
                     <p>
-                        <span>  授权区域：兰州</span>
-                        <span>电话：0931-12341234 </span>
-                        <span>兰州七里河兰州中心</span>
+                        <span>  授权区域：西宁</span>
+                        <span>电话：13709750841（李主任） </span>
+                        <span>青海省西宁市城中区南川东路21号2号区1号楼1幢1层</span>
                     </p>
                 </li>
                 <li>
-                    <p><span>【销售及服务】</span>甘肃办事处</p>
+                    <p><span>【销售及服务】</span>陕西办事处</p>
                     <p>
-                        <span>  授权区域：兰州</span>
-                        <span>电话：0931-12341234 </span>
-                        <span>兰州七里河兰州中心</span>
+                        <span>  授权区域：西安</span>
+                        <span>电话：18109491372（陈经理） </span>
+                        <span>陕西省西安市未央区凯旋大厦1713</span>
                     </p>
                 </li>
                 <li>
-                    <p><span>【销售及服务】</span>甘肃办事处</p>
+                    <p><span>【销售及服务】</span>河南办事处</p>
                     <p>
-                        <span>  授权区域：兰州</span>
-                        <span>电话：0931-12341234 </span>
-                        <span>兰州七里河兰州中心</span>
+                        <span>  授权区域：郑州</span>
+                        <span>电话：17797575506（景主任） </span>
+                        <span>河南省郑州市金水区未来路曼哈顿</span>
                     </p>
                 </li>
             </ul>
             <!--底部导航-->
-            <div class="page_number" style="margin-top: 0;margin-bottom:40px;">
-                <a class="active">1</a>
-                <a>2</a>
-                <a>3</a>
-                <a>4</a>
-                <a>下一页</a>
-            </div>
+            <!--<div class="page_number" style="margin-top: 0;margin-bottom:40px;">-->
+                <!--<a class="active">1</a>-->
+                <!--<a>2</a>-->
+                <!--<a>3</a>-->
+                <!--<a>4</a>-->
+                <!--<a>下一页</a>-->
+            <!--</div>-->
         </div>
 
         <page-footer></page-footer>
@@ -116,6 +121,39 @@
                     yx: true,
                     lx: false,
                 },
+                center: [103.845257,36.055688],
+                lng: 0,
+                lat: 0,
+                loaded: false,
+                plugin: [{
+                    enableHighAccuracy: true,//是否使用高精度定位，默认:true
+                    timeout: 100,          //超过10秒后停止定位，默认：无穷大
+                    maximumAge: 0,           //定位结果缓存0毫秒，默认：0
+                    convert: true,           //自动偏移坐标，偏移后的坐标为高德坐标，默认：true
+                    showButton: true,        //显示定位按钮，默认：true
+                    buttonPosition: 'RB',    //定位按钮停靠位置，默认：'LB'，左下角
+                    showMarker: true,        //定位成功后在定位到的位置显示点标记，默认：true
+                    showCircle: true,        //定位成功后用圆圈表示定位精度范围，默认：true
+                    panToLocation: true,     //定位成功后将定位到的位置作为地图中心点，默认：true
+                    zoomToAccuracy:true,//定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：f
+                    extensions:'all',
+                    pName: 'Geolocation',
+                    events: {
+                        init(o) {
+                            // o 是高德地图定位插件实例
+                            o.getCurrentPosition((status, result) => {
+                                console.log(result)
+                                if (result && result.position) {
+                                    self.lng = result.position.lng;
+                                    self.lat = result.position.lat;
+                                    self.center = [self.lng, self.lat];
+                                    self.loaded = true;
+                                    self.$nextTick();
+                                }
+                            });
+                        }
+                    }
+                }]
             }
         },
         mounted() {

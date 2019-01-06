@@ -7,7 +7,7 @@
                 <h2>产品中心</h2>
                 <div class="about_list">
                     <a class="active">环卫装备</a>
-                    <a href="/#">混凝土装备</a>
+                    <a href="/#">建筑装备</a>
                     <a href="/#">运输装备</a>
                 </div>
             </div>
@@ -15,7 +15,7 @@
         <!--一级导航-->
         <div class="zz-change-box">
             <ul class="change-list">
-                <li class="active">清扫类保洁</li>
+                <li class="active">清扫保洁类</li>
                 <li>市政园林养护类</li>
                 <li>垃圾收转类</li>
                 <li>环卫电动类</li>
@@ -34,7 +34,7 @@
                 <li class="active"><span></span>清扫车系列</li>
                 <li><span></span>扫路车系列</li>
                 <li><span></span>洒水车系列</li>
-                <li><span></span>高压清洗车系列</li>
+                <li><span></span>清洗车系列</li>
             </ul>
         </div>
         <!--中间图片,后端传值-->
@@ -46,7 +46,7 @@
                         <img src="../assets/por-car-2.png" alt="">
                         <span>GSK5310GJB</span>
                         <div class="masking">
-                            <a href=""><img src="../assets/product-1.png" alt=""></a>
+                            <a href="/productdetail"><img src="../assets/product-1.png" alt=""></a>
                         </div>
                     </li>
                     <li>

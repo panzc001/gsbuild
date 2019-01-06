@@ -135,7 +135,7 @@
                     </li>
                 </ul>
             </div>
-            <!--缩放背景图-->
+
             <div class="sj_jg-box">
                 <img class="sj_1" src="../assets/inde_sl-11.png"/>
                 <img class="sj_2" src="../assets/inde_sl-22.png">
@@ -207,7 +207,9 @@
                     </div>
                 </div>
             </div>
+            <!--缩放背景图-->
             <div class="bott_lst-boss">
+                <div class="mb"></div>
                 <div class="ls">
                     <a v-for="(item,index) in fot_img" :key="index">
                         <i :style="'backgroundImage: url(' + item.img + ')'"></i>
@@ -375,9 +377,9 @@
                 } else if (scrollTop >= 80 && scrollTop < anc_4-200) {
                     $('.right_slide').addClass('fadeInLeft');
                     $('.lef_list').addClass('fadeInRight');
-                } else if (scrollTop >= anc_4 -800 && scrollTop < anc_5 - 300) {
+                } else if (scrollTop >= anc_4 -280 && scrollTop < anc_5 - 280) {
                     $('.bott_lst-boss .ls a').addClass('fadeInUp')
-                    $('.bott_lst-boss').css('background-positionY', ( anc_4-scrollTop) * 0.5)
+                    $('.bott_lst-boss').css('background-positionY', ( anc_3-scrollTop) * 0.5)
                 }
             });
             

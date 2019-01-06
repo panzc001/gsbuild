@@ -2,18 +2,14 @@
     <div class="wraper top_bg-cor">
         <page-header :isActive="isActive"></page-header>
         <!--top-menu-->
-        <div class="about_nav-box kj_yf-box">
-            <div class="about_ctn">
-                <h2>科技+研发</h2>
-                <div class="about_list">
-                    <a href="/kj-yf_1">科技+研发</a>
-                    <!-- <a class="active">建筑机械工程实验室</a> -->
-                    <a href="/kj-yf_3">研究成果专利</a>
-                </div>
+        <div class="zz-content_box">
+            <div class="list_ctn animated fadeIn XG " >
+                <img src="../assets/kjyf.png" alt="">
             </div>
         </div>
         <div class="kj_yf-wrap">
             <div class="sys_tt animated fadeInUp">
+                <span></span>
                 <h2>甘肃省建筑机械工程实验室有限公司</h2>
                 <p>
                     甘肃省建筑机械工程实验室有限公司成立于2014年10月，注册资金3000万元，系甘肃建投装备制造有限公司的全资子公司，是省发展和改革委员会批复的省级工程研究中心（工程实验室）（甘发改高技〔2014〕1037号）。公司专业从事产品技术研发、技术咨询、技术转让、检验检测等业务，目前设有技术研发中心、专用汽车研究所（湖北十堰）、产业孵化中心、质量检查中心、测试中心等部门，拥有一支年轻化、技术强、专业精、具有创新协作精神的优秀团队，以及先进的研发设备、SOLIDWORKS等软件设施和理化检验、无损检测、液压试验台、淋雨试验房等检验检测设备。为甘肃建投装备制造有限公司及所属子公司产品更新换代，产品系列化及优化，提供了强有力的科技技术支撑。</p>

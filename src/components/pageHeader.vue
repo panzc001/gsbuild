@@ -17,7 +17,7 @@
                             <div class="lis">
                                 <div class="bbox">
                                     <a href="/about_1">企业概况</a>
-                                    <a href="/about_1#zhlv">公司战略</a>
+                                    <a href="/about_1#zhlv" class="click1">公司战略</a>
                                     <a href="/about_1#qywh">企业文化</a>
                                     <a href="/about_2">发展历程</a>
                                     <a href="/about_6">公司荣誉</a>
@@ -48,14 +48,14 @@
                         </div>
                     </li>
                     <li  :class="{active: isActive.pp}">
-                        <a href="javascript:;">
+                        <a href="/product">
                             <span>产品中心</span>
                         </a>
                         <div class="pump_slide zz-serve pump_slide-1 zz-serve-1 product-1">
                             <div class="lis">
                                 <div style="display:flex;flex-direction:column;" class="bbox">
                                     <a href="/product">环卫装备</a>
-                                    <a href="/#">混凝土装备</a>
+                                    <a href="/#">建筑装备</a>
                                     <a href="/#">运输装备</a>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@
                         </a>
                     </li>
                 </ul>
-                <a class="lang">EN</a>
+                <a class="lang" @click="changelanguage">EN</a>
             </div>
         </div>
     </div>
@@ -129,7 +129,11 @@
             $('.nav li').click(function () {
                 $(this).addClass('active').siblings().removeClass('active')
             });
-
+            $(".click1").click(function() {
+                setTimeout(function(){
+                    $("#zhlv").offset().top = 0
+                },3000)
+            })
         }
     }
 </script>

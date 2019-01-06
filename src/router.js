@@ -230,6 +230,13 @@ const pageRouter = [
             title: '留言咨询'
         },
         component: (resolve) => require(['@/pages/yx-fw_6'], resolve)
+    },{
+        path: '/productdetail',
+        name: 'productdetail',
+        meta: {
+            title: '产品详情'
+        },
+        component: (resolve) => require(['@/pages/productdetail'], resolve)
     }
     
 ]

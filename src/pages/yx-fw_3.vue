@@ -17,37 +17,19 @@
         </div>
         <div class="word_all">
             <div class="wordall_1">
-                <h3>配件销售</h3>
-                <p>配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案</p>
-                <p>配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案</p>
+                <h3>终身配件供应服务：</h3>
+                <p>提供终身配件供应服务，我公司为兰州新区自营国有企业，能够迅速及时地为用户提供配件，并代为包装与运发</p>
+                <!--<p>配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案</p>-->
             </div>
             <!--轮播图效果-->
-            <div class="wordall_3">
-                <div class="imgs animated fadeInLeft">
-                    <img src="../assets/Group 13.png" alt="">
-                </div>
-                <div class="butn  animated fadeInRight">
-                    <!--//上箭头-->
-                    <span class="pre"><img src="../assets/Group 11.png" alt=""></span>
-                    <ul class="slider">
-                        <li><img src="../assets/por-car-2.png" alt=""></li>
-                        <li><img src="../assets/por-car-2.png" alt=""></li>
-                        <li><img src="../assets/por-car-2.png" alt=""></li>
-                        <li><img src="../assets/por-car-2.png" alt=""></li>
-                        <li><img src="../assets/por-car-2.png" alt=""></li>
-                        <li><img src="../assets/por-car-2.png" alt=""></li>
-                    </ul>
-                    <!--//下箭头-->
-                    <span class="next"><img src="../assets/Group 12.png" alt=""></span>
-                </div>
-            </div>
-            <div class="wordall_1 wordall_2">
-                <h3>保障中心设备大修</h3>
-                <h5>副标题副标题副标题</h5>
-                <p>配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案</p>
-                <h5>副标题副标题副标题</h5>
-                <p>配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案</p>
-            </div>
+               <pjgy-slider></pjgy-slider>
+            <!--<div class="wordall_1 wordall_2">-->
+                <!--<h3>保障中心设备大修</h3>-->
+                <!--<h5>副标题副标题副标题</h5>-->
+                <!--<p>配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案</p>-->
+                <!--<h5>副标题副标题副标题</h5>-->
+                <!--<p>配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案配件销售文案</p>-->
+            <!--</div>-->
         </div>
         <page-footer></page-footer>
     </div>
@@ -58,9 +40,11 @@
     import PageFooter from "../components/pageFooter";
     import animate from 'animate.css'
     import $ from 'jquery'
+    import Swiper from 'swiper'
+    import PjgySlider from "../components/pjgySlider";
     export default {
         name: "yx-fw_1",
-        components: {PageHeader, PageFooter},
+        components: {PjgySlider, PageHeader, PageFooter},
         data() {
             return {
                 isActive: {
@@ -100,22 +84,12 @@
             $('.thing ul li').click(function () {
                 $(this).addClass('active').siblings().removeClass('active');
             });
-           //点击箭头图片上下滚动效果
-            $('.pre').bind("click", function(){
-               $('.slider li').animate({"top":"-160",})
-            });
-            $('.next').bind("click", function(){
-                $('.slider li').animate({"top":"0",})
-            });
-            //点击切换图片
-            $('.slider li').bind("click", function(){
-               var si = $('.slider li img').attr('src')
-                $('.imgs img').attr('si');
-            });
+
         }
     }
 </script>
 
 <style scoped>
+
 
 </style>
