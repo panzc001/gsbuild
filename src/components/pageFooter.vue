@@ -8,6 +8,21 @@
                     <a href="#">网站地图</a>
                     <a href="#">负责声明</a>
                 </p>
+                <div class="yy">
+                    <a href="#"><img src="../assets/wx_icon.png"/></a>
+                    <a href="#"><img src="../assets/wb_icon.png"/></a>
+                    <a href="#"><img src="../assets/qq_icon.png"></a>
+                </div>
+                <div class="fot_ewm">
+                    <p>
+                        <img src="../assets/ewm.png"/>
+                        <span>官方微信</span>
+                    </p>
+                    <p>
+                        <img src="../assets/ewm.png"/>
+                        <span>手机网站</span>
+                    </p>
+                </div>
             </div>
             <ul class="fot_nav">
                 <li>
@@ -19,6 +34,7 @@
                         <a>发展历程</a>
                         <a>公司荣誉</a>
                         <a>社会责任</a>
+                        <a>人才招聘</a>
                     </div>
                 </li>
                 <li>
@@ -34,14 +50,15 @@
                     <div class="sm_list">
                         <a>产品中心</a>
                         <a>环卫装备</a>
-                        <a>工程装备</a>
+                        <a>建筑装备</a>
+                        <a>运输装备</a>
                     </div>
                 </li>
                 <li>
                     <div class="sm_list">
                         <a>制造+服务</a>
-                        <a>环卫装备制造+ 环卫产业服务</a>
-                        <a>混凝土装备制造+ 混凝土运输服务</a>
+                        <a>环卫运营</a>
+                        <a>商砼服务</a>
                     </div>
                 </li>
                 <li>

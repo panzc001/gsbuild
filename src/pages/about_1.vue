@@ -29,7 +29,7 @@
         </div>
 
         <!--公司战略-->
-        <div class="zhlv_container">
+        <div class="zhlv_container" id="zhlv">
             <div class="zhlv">
                 <h2 class="animated"></h2>
                 <h3 class="animated">成为服务型制造业的领跑者</h3>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <!--企业文化-->
-        <div class="comp_culture">
+        <div class="comp_culture" id="qywh">
             <h1></h1>
             <div class="cnt">
                 <ul class="list_box animated">

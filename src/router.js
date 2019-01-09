@@ -1,11 +1,11 @@
 const pageRouter = [
     {
         path: '/',
-        name: 'index',
+        name: 'index_1',
         meta: {
             title: '首页'
         },
-        component: (resolve) => require(['@/pages/index'], resolve)
+        component: (resolve) => require(['@/pages/index_1'], resolve)
     },{
         path: '/about_1',
         name: 'about_1',
@@ -174,6 +174,13 @@ const pageRouter = [
             title: '研究成果专利'
         },
         component: (resolve) => require(['@/pages/kj-yf_3'], resolve)
+    },{
+        path: '/zz-fw_1',
+        name: 'zz-fw_1',
+        meta: {
+            title: '制造+服务环卫运营解决方案'
+        },
+        component: (resolve) => require(['@/pages/zz-fw_1'], resolve)
     }
     
 ]

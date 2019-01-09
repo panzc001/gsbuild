@@ -6,9 +6,9 @@
             <div class="about_ctn">
                 <h2>制造+服务</h2>
                 <div class="about_list">
-                    <a href="/zz-serve_1">环卫装备制造+环卫产业服务</a>
-                    <a class="active">混凝土装备制造+混凝土运输服务</a>
-                    <a href="/zz-serve_3">甘肃高漠环境工程有限公司</a>
+                    <a href="/zz-serve_1">环卫运营</a>
+                    <a class="active">商砼服务</a>
+                    <!-- <a href="/zz-serve_3">甘肃高漠环境工程有限公司</a> -->
                 </div>
             </div>
         </div>

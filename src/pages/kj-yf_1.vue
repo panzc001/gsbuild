@@ -7,7 +7,7 @@
                 <h2>科技+研发</h2>
                 <div class="about_list">
                     <a class="active">科技+研发</a>
-                    <a href="/kj-yf_2">建筑机械工程实验室</a>
+                    <!-- <a href="/kj-yf_2">建筑机械工程实验室</a> -->
                     <a href="/kj-yf_3">研究成果专利</a>
                 </div>
             </div>
