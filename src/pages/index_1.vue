@@ -251,7 +251,7 @@
                     },
                     {
                         href: '#',
-                        img: require("../assets/bann02.jpg")
+                        img: require("../assets/bann02.png")
                     },
                     {
                         href: '#',
