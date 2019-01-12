@@ -26,25 +26,69 @@
                     <ul class="dea">
                         <li>
                             <span>
-                                <em>06</em>
+                                <em>20</em>
                                 <i>2018-11</i>
                             </span>
-                            <p>荣誉标题荣誉标题荣誉标题荣誉标题</p>
+                            <p>中清协会员</p>
+                            <a href="javascript:;"><img src="../assets/ry20181120.jpg"/></a>
                         </li>
                         <li>
                             <span>
-                                <em>06</em>
+                                <em>6</em>
                                 <i>2018-11</i>
                             </span>
-                            <p>荣誉标题荣誉标题荣誉标题荣誉标题</p>
+                            <p>诚信经营师范单位证书</p>
+                            <a href="javascript:;"><img src="../assets/ry20181106.jpg"/></a>
                         </li>
                         <li>
                             <span>
-                                <em>06</em>
+                                <em>6</em>
                                 <i>2018-11</i>
                             </span>
-                            <p>荣誉标题荣誉标题荣誉标题荣誉标题</p>
+                            <p>AAA级信用等级证书</p>
+                            <a href="javascript:;"><img src="../assets/ry201811062.jpg"/></a>
                         </li>
+                        <li>
+                            <span>
+                                <em>6</em>
+                                <i>2018-11</i>
+                            </span>
+                            <p>质量服务信誉证书</p>
+                            <a href="javascript:;"><img src="../assets/ry201811063.jpg"/></a>
+                        </li>
+                        <li>
+                            <span>
+                                <em>6</em>
+                                <i>2018-11</i>
+                            </span>
+                            <p>重合同守信用证书</p>
+                            <a href="javascript:;"><img src="../assets/ry201811064.jpg"/></a>
+                        </li><li>
+                            <span>
+                                <em>6</em>
+                                <i>2018-11</i>
+                            </span>
+                        <p>AAA级资信等级证书</p>
+                        <a href="javascript:;"><img src="../assets/201811065.jpg"/></a>
+                    </li>
+                        <li>
+                            <span>
+                                <em>30</em>
+                                <i>2018-10</i>
+                            </span>
+                            <p>五星品牌认证</p>
+                            <a href="javascript:;"><img src="../assets/ry20181030.jpg"/></a>
+                        </li>
+                        <li>
+                            <span>
+                                <em>23</em>
+                                <i>2018-7</i>
+                            </span>
+                            <p>高新技术企业证书</p>
+                            <a href="javascript:;"><img src="../assets/ry20180723.jpg"/></a>
+                        </li>
+
+
                     </ul>
                 </div>
                 <div class="list">
@@ -55,24 +99,19 @@
                     <ul class="dea">
                         <li>
                             <span>
-                                <em>06</em>
-                                <i>2018-11</i>
+                                <em>7</em>
+                                <i>2017-12</i>
                             </span>
-                            <p>荣誉标题荣誉标题荣誉标题荣誉标题</p>
+                            <p>五星售后服务认证</p>
+                            <a href="javascript:;"><img src="../assets/ry20171207.png"/></a>
                         </li>
                         <li>
                             <span>
-                                <em>06</em>
-                                <i>2018-11</i>
+                                <em>17</em>
+                                <i>2017-9</i>
                             </span>
-                            <p>荣誉标题荣誉标题荣誉标题荣誉标题</p>
-                        </li>
-                        <li>
-                            <span>
-                                <em>06</em>
-                                <i>2018-11</i>
-                            </span>
-                            <p>荣誉标题荣誉标题荣誉标题荣誉标题</p>
+                            <p>全国售后服务先进单位称号</p>
+                            <a href="javascript:;"><img src="../assets/ry20170917.png"/></a>
                         </li>
                     </ul>
                 </div>
@@ -84,24 +123,19 @@
                     <ul class="dea">
                         <li>
                             <span>
-                                <em>06</em>
-                                <i>2018-11</i>
+                                <em>12</em>
+                                <i>2016-6</i>
                             </span>
-                            <p>荣誉标题荣誉标题荣誉标题荣誉标题</p>
+                            <p>世界制造厂识别代号</p>
+                            <a href="javascript:;"><img src="../assets/ry20160612.png"/></a>
                         </li>
                         <li>
                             <span>
-                                <em>06</em>
-                                <i>2018-11</i>
+                                <em>19</em>
+                                <i>2016-1</i>
                             </span>
-                            <p>荣誉标题荣誉标题荣誉标题荣誉标题</p>
-                        </li>
-                        <li>
-                            <span>
-                                <em>06</em>
-                                <i>2018-11</i>
-                            </span>
-                            <p>荣誉标题荣誉标题荣誉标题荣誉标题</p>
+                            <p>企业名称代号证书</p>
+                            <a href="javascript:;"><img src="../assets/ry20160119.png"/></a>
                         </li>
                     </ul>
                 </div>

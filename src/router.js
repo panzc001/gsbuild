@@ -181,6 +181,55 @@ const pageRouter = [
             title: '制造+服务环卫运营解决方案'
         },
         component: (resolve) => require(['@/pages/zz-fw_1'], resolve)
+    }, {
+        path: '/product',
+        name: 'product',
+        meta: {
+            title: '产品中心'
+        },
+        component: (resolve) => require(['@/pages/product'], resolve)
+    },{
+        path: '/yx-fw_1',
+        name: 'yx-fw_1',
+        meta: {
+            title: '营销服务'
+        },
+        component: (resolve) => require(['@/pages/yx-fw_1'], resolve)
+    },{
+        path: '/yx-fw_2',
+        name: 'yx-fw_2',
+        meta: {
+            title: '网络营销'
+        },
+        component: (resolve) => require(['@/pages/yx-fw_2'], resolve)
+    },{
+        path: '/yx-fw_3',
+        name: 'yx-fw_3',
+        meta: {
+            title: '配件供应'
+        },
+        component: (resolve) => require(['@/pages/yx-fw_3'], resolve)
+    },{
+        path: '/yx-fw_4',
+        name: 'yx-fw_4',
+        meta: {
+            title: '技术信息'
+        },
+        component: (resolve) => require(['@/pages/yx-fw_4'], resolve)
+    },{
+        path: '/yx-fw_5',
+        name: 'yx-fw_5',
+        meta: {
+            title: '售后服务'
+        },
+        component: (resolve) => require(['@/pages/yx-fw_5'], resolve)
+    },{
+        path: '/yx-fw_6',
+        name: 'yx-fw_6',
+        meta: {
+            title: '留言咨询'
+        },
+        component: (resolve) => require(['@/pages/yx-fw_6'], resolve)
     }
     
 ]

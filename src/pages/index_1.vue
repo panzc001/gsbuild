@@ -84,8 +84,8 @@
                         <li>
                             <a href="/kj-yf_2">
                                 <i></i>
-                                <h4>甘肃省建筑机械工程实验室</h4>
-                                <p>Gansu Construction Machinery Engineering Laboratory</p>
+                                <h4>科技+研发</h4>
+                                <p>Heavy industry+R&D</p>
                                 <img src="../assets/pro_jt.png"/>
                             </a>
                         </li>
@@ -100,10 +100,6 @@
                     </ul>
                 </div>
             </div>
-            <div class="sj_jg-box">
-                <img class="sj_1" src="../assets/inde_sl-11.png"/>
-                <img class="sj_2" src="../assets/inde_sl-22.png">
-            </div>
             <!--服务-->
             <div class="ser-ve_wrap">
                 <!-- <h3>致力成为服务型制造业的领跑者</h3>
@@ -114,7 +110,7 @@
                             <div class="tt-1">
                                 <h2>营销服务</h2>
                                 <span>Marketing Service</span>
-                                <p>我们围绕服务型制造领域，结合产业和产品的特性，分别在XXX、XXX、XXX等地设有XXX家XX。</p>
+                                <p></p>
                             </div>
                             <img src="../assets/yx_fw.png"/>
                         </a>
@@ -139,6 +135,11 @@
                     </li>
                 </ul>
             </div>
+            <!--缩放背景图-->
+            <div class="sj_jg-box">
+                <img class="sj_1" src="../assets/inde_sl-11.png"/>
+                <img class="sj_2" src="../assets/inde_sl-22.png">
+            </div>
             <!--新闻-->
             <div class="news_box-wrap">
                 <h3>
@@ -153,31 +154,31 @@
                         <li>
                             <div class="time">
                                 <span>2018</span>
-                                <p>12-20</p>
+                                <p>11-14</p>
                             </div>
                             <div class="tt">
-                                <h2><a href="#">新闻标题新闻标题新闻标题新闻标题新闻标题新闻…</a></h2>
-                                <p>新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要…</p>
+                                <h2><a href="#">甘肃省发改委一行调研甘肃建投重工科技有限公司</a></h2>
+                                <p>11月14日下午，甘肃省发展与改革委员会副主任汪尚学一行调研甘肃建投重工科技有限公司。</p>
                             </div>
                         </li>
                         <li>
                             <div class="time">
                                 <span>2018</span>
-                                <p>12-20</p>
+                                <p>11-21</p>
                             </div>
                             <div class="tt">
-                                <h2><a href="#">新闻标题新闻标题新闻标题新闻标题新闻标题新闻…</a></h2>
-                                <p>新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要…</p>
+                                <h2><a href="#">甘肃建投重工科技有限公司参加第二十届中国国际高新技术成果交易会</a></h2>
+                                <p>2018年11月14日甘肃建投重工科技有限公司亮相第二十届中国国际高新技术成果交易会。</p>
                             </div>
                         </li>
                         <li>
                             <div class="time">
                                 <span>2018</span>
-                                <p>12-20</p>
+                                <p>9-19</p>
                             </div>
                             <div class="tt">
-                                <h2><a href="#">新闻标题新闻标题新闻标题新闻标题新闻标题新闻…</a></h2>
-                                <p>新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要新闻概要…</p>
+                                <h2><a href="#">甘肃建投重工科技有限公司营销分公司成立</a></h2>
+                                <p>2018年9月19日甘肃建投重工科技有限公司营销分公司在兰州中心写字楼33楼挂牌成立，开启公司专用车事业发展新篇章。分公司主要从事专用车销售、租赁、环卫一体等业务。</p>
                             </div>
                         </li>
                     </ul>
@@ -185,19 +186,19 @@
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide">
                                 <a href="#">
-                                    <h3>甘肃省庆祝改革开放40周年图片展开幕</h3>
+                                    <h3>甘肃省发改委一行调研甘肃建投重工科技有限公司</h3>
                                     <i :style="'backgroundImage: url(' + imghw + ')'"></i>
                                 </a>
                             </li>
                             <li class="swiper-slide">
                                 <a href="#">
-                                    <h3>甘肃省庆祝改革开放40周年图片展开幕</h3>
+                                    <h3>甘肃建投重工科技有限公司参加第二十届中国国际高新技术成果交易会</h3>
                                     <i :style="'backgroundImage: url(' + imggc + ')'"></i>
                                 </a>
                             </li>
                             <li class="swiper-slide">
                                 <a href="#">
-                                    <h3>甘肃省庆祝改革开放40周年图片展开幕</h3>
+                                    <h3>甘肃建投重工科技有限公司营销分公司成立</h3>
                                     <i :style="'backgroundImage: url(' + imgyx + ')'"></i>
                                 </a>
                             </li>
@@ -241,9 +242,9 @@
                     yx: false,
                     lx: false,
                 },
-                imghw: require("../assets/lc_13.png"),
-                imggc: require("../assets/lc_10.png"),
-                imgyx: require("../assets/lc_12.png"),
+                imghw: require("../assets/newstop1.jpg"),
+                imggc: require("../assets/newstop2.png"),
+                imgyx: require("../assets/newstop3.png"),
                 bannerbg: [
                     {
                         href: '#',
@@ -367,16 +368,16 @@
                 const anc_3 = $('.new_content').offset().top;
                 const anc_4 = $('.bott_lst-boss .ls').offset().top;
                 const anc_5 = $('.footer').offset().top;
-                if (scrollTop >= anc_1 - 320 && scrollTop < anc_2 - 320) {
-                    $('.sj_jg-box').css('background-positionY', (scrollTop - anc_2) * 0.12)
-                } else if (scrollTop >= anc_2 - 320 && scrollTop < anc_3 - 320) {
+                if (scrollTop >= anc_2 - 320 && scrollTop < anc_3 - 320) {
+                    $('.sj_jg-box').css('background-positionY', (scrollTop - anc_3) * 0.12)
+                } else if (scrollTop >= anc_2 - 750 && scrollTop < anc_3 - 320) {
                     $('.se_list-ctt li').addClass('revealed');
-                } else if (scrollTop >= anc_3 - 320 && scrollTop < anc_4 - 280) {
+                } else if (scrollTop >= anc_3 - 900 && scrollTop < anc_4-200) {
                     $('.right_slide').addClass('fadeInLeft');
                     $('.lef_list').addClass('fadeInRight');
-                } else if (scrollTop >= anc_4 - 280 && scrollTop < anc_5 - 280) {
+                } else if (scrollTop >= anc_4 -700 && scrollTop < anc_5 - 300) {
                     $('.bott_lst-boss .ls a').addClass('fadeInUp')
-                    $('.bott_lst-boss').css('background-positionY', ( anc_3-scrollTop) * 0.5)
+                    $('.bott_lst-boss').css('background-positionY', ( anc_4-scrollTop) * 0.5)
                 }
             });
             

@@ -49,17 +49,26 @@
                         </div>
                     </li>
                     <li  :class="{active: isActive.pp}">
-                        <a href="#">
+                        <a href="javascript:;">
                             <span>产品中心</span>
                         </a>
+                        <div class="pump_slide zz-serve pump_slide-1 zz-serve-1 product-1">
+                            <div class="lis">
+                                <div style="display:flex;flex-direction:column;" class="bbox">
+                                    <a href="/product">环卫装备</a>
+                                    <a href="/#">混凝土装备</a>
+                                    <a href="/#">运输装备</a>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li  :class="{active: isActive.zz}">
-                        <a href="/zz-serve_3">
+                        <a  href="/zz-serve_3">
                             <span>制造+服务</span>
                         </a>
                         <div class="pump_slide zz-serve pump_slide-1 zz-serve-1">
                             <div class="lis">
-                                <div class="bbox">
+                                <div style="display:flex;flex-direction:column;" class="bbox">
                                     <a href="/zz-serve_1">环卫运营</a>
                                     <a href="/zz-serve_2">商砼服务</a>
                                 </div>
@@ -80,12 +89,23 @@
                         </div>
                     </li>
                     <li  :class="{active: isActive.yx}">
-                        <a href="#">
+                        <a href="/yx-fw_1">
                             <span>营销服务</span>
                         </a>
+                        <div class="pump_slide xw-cet pump_slide-1 xw-cet-1 yx-fw_1">
+                            <div class="lis">
+                                <div class="bbox">
+                                    <a href="/yx-fw_2">营销网络</a>
+                                    <a href="/yx-fw_3">配件供应</a>
+                                    <a href="/yx-fw_4">技术信息</a>
+                                    <a href="/yx-fw_5">售后服务</a>
+                                    <a href="/yx-fw_6">留言咨询</a>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li  :class="{active: isActive.lx}">
-                        <a href="#">
+                        <a href="/contact_1">
                             <span>联系我们</span>
                         </a>
                     </li>
@@ -110,23 +130,7 @@
             $('.nav li').click(function () {
                 $(this).addClass('active').siblings().removeClass('active')
             });
-            //导航点击变色效果
-            // $(function(){
-            //     $(".nav li").click(function(){
-            //         $(".nav li").eq($(this).index()).addClass("lis").siblings().removeClass("lis");
-            //     })
-            // })
 
-           // $(function () {
-           //    for (var i = 0; i <$(".nav li").length; i++) {
-           //      $(".nav li").eq(i).click(function () {
-           //        for (var j= 0; j <$(".nav li").length; j++){
-           //          $(".nav li a span").eq(j).removeClass("lis")
-           //        }
-           //        $(this).addClass("lis")
-           //      })
-           //    }
-           //  })
         }
     }
 </script>

@@ -7,10 +7,16 @@ require('vue-video-player/src/custom-theme.css')
 import pageRouter from './router.js'
 import '@/common/css/index.less'
 import 'swiper/dist/css/swiper.css';
+//地图
+// import BaiduMap from "vue-baidu-map";
 
 Vue.use(VideoPlayer)
 
 Vue.use(VueRouter);
+//地图
+// Vue.use(BaiduMap,{
+// 	ak:"D0toceDBsThhuH81qjkEUayhLxkkoB5q"
+// })
 
 Vue.config.productionTip = false
 
