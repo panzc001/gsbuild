@@ -6,9 +6,9 @@
             <div class="about_ctn">
                 <h2>关于我们</h2>
                 <div class="about_list">
-                     <a href="/about_3">企业概况</a>
-                    <a href="/about_4">公司战略</a>
-                    <a href="/about_5">企业文化</a>
+                    <a href="/about_1">企业概况</a>
+                    <a href="/about_1#zhlv">公司战略</a>
+                    <a href="/about_1#qywh">企业文化</a>
                     <a href="/about_2">发展历程</a>
                     <a class="active">公司荣誉</a>
                     <a href="/about_8">社会责任</a>
@@ -17,7 +17,9 @@
             </div>
         </div>
         <div class="honur_box">
-            <div class="rig_box animated fadeInRight">
+            <img src="../assets/honur.png" class="lef_img animated fadeInLeft"/>
+            <div class="scroll1">
+                 <div class="rig_box animated fadeInRight">
                 <div class="list">
                     <div class="yea">
                         <span>2018</span>
@@ -140,7 +142,7 @@
                     </ul>
                 </div>
             </div>
-            <img src="../assets/honur.png" class="lef_img animated fadeInLeft"/>
+            </div>
         </div>
         <page-footer></page-footer>
     </div>

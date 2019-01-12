@@ -154,31 +154,31 @@
                         <li>
                             <div class="time">
                                 <span>2018</span>
-                                <p>11-14</p>
+                                <p>12-6</p>
                             </div>
                             <div class="tt">
-                                <h2><a href="#">甘肃省发改委一行调研甘肃建投重工科技有限公司</a></h2>
-                                <p>11月14日下午，甘肃省发展与改革委员会副主任汪尚学一行调研甘肃建投重工科技有限公司。</p>
+                                <h2><a href="#">甘肃建投重工科技有限公司参加第九届bauma CHINA</a></h2>
+                                <p>bauma CHINA 2018，第九届中国国际工程机械、建材机械、矿山机械、工程车辆及设备博览会已于2018年11月27-30日在上海新国际博览中心成功举办。</p>
                             </div>
                         </li>
                         <li>
                             <div class="time">
                                 <span>2018</span>
-                                <p>11-21</p>
+                                <p>11-27</p>
+                            </div>
+                            <div class="tt">
+                                <h2><a href="#">祝贺甘肃建投重工科技有限公司 获得“重合同守信用企业”荣誉称号</a></h2>
+                                <p>近日，我公司被长风国际信用评价集团有限公司授予“重合同守信用企业”荣誉称号，成为全省同行业中获此殊荣的佼佼者。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="time">
+                                <span>2018</span>
+                                <p>11-14</p>
                             </div>
                             <div class="tt">
                                 <h2><a href="#">甘肃建投重工科技有限公司参加第二十届中国国际高新技术成果交易会</a></h2>
                                 <p>2018年11月14日甘肃建投重工科技有限公司亮相第二十届中国国际高新技术成果交易会。</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="time">
-                                <span>2018</span>
-                                <p>9-19</p>
-                            </div>
-                            <div class="tt">
-                                <h2><a href="#">甘肃建投重工科技有限公司营销分公司成立</a></h2>
-                                <p>2018年9月19日甘肃建投重工科技有限公司营销分公司在兰州中心写字楼33楼挂牌成立，开启公司专用车事业发展新篇章。分公司主要从事专用车销售、租赁、环卫一体等业务。</p>
                             </div>
                         </li>
                     </ul>
@@ -186,7 +186,7 @@
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide">
                                 <a href="#">
-                                    <h3>甘肃省发改委一行调研甘肃建投重工科技有限公司</h3>
+                                    <h3>甘肃建投重工科技有限公司参加第九届bauma CHINA</h3>
                                     <i :style="'backgroundImage: url(' + imghw + ')'"></i>
                                 </a>
                             </li>
@@ -198,7 +198,7 @@
                             </li>
                             <li class="swiper-slide">
                                 <a href="#">
-                                    <h3>甘肃建投重工科技有限公司营销分公司成立</h3>
+                                    <h3>甘肃省发改委一行调研甘肃建投重工科技有限公司</h3>
                                     <i :style="'backgroundImage: url(' + imgyx + ')'"></i>
                                 </a>
                             </li>
@@ -242,9 +242,9 @@
                     yx: false,
                     lx: false,
                 },
-                imghw: require("../assets/newstop1.jpg"),
+                imghw: require("../assets/newstop1.png"),
                 imggc: require("../assets/newstop2.png"),
-                imgyx: require("../assets/newstop3.png"),
+                imgyx: require("../assets/newstop3.jpg"),
                 bannerbg: [
                     {
                         href: '#',
@@ -370,12 +370,12 @@
                 const anc_5 = $('.footer').offset().top;
                 if (scrollTop >= anc_2 - 320 && scrollTop < anc_3 - 320) {
                     $('.sj_jg-box').css('background-positionY', (scrollTop - anc_3) * 0.12)
-                } else if (scrollTop >= anc_2 - 750 && scrollTop < anc_3 - 320) {
+                } else if (scrollTop >= anc_2 - 750 && scrollTop < anc_3 - 500) {
                     $('.se_list-ctt li').addClass('revealed');
-                } else if (scrollTop >= anc_3 - 900 && scrollTop < anc_4-200) {
+                } else if (scrollTop >= 80 && scrollTop < anc_4-200) {
                     $('.right_slide').addClass('fadeInLeft');
                     $('.lef_list').addClass('fadeInRight');
-                } else if (scrollTop >= anc_4 -700 && scrollTop < anc_5 - 300) {
+                } else if (scrollTop >= anc_4 -800 && scrollTop < anc_5 - 300) {
                     $('.bott_lst-boss .ls a').addClass('fadeInUp')
                     $('.bott_lst-boss').css('background-positionY', ( anc_4-scrollTop) * 0.5)
                 }

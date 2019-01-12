@@ -6,9 +6,9 @@
             <div class="about_ctn">
                 <h2>关于我们</h2>
                 <div class="about_list">
-                     <a href="/about_3">企业概况</a>
-                    <a href="/about_4">公司战略</a>
-                    <a href="/about_5">企业文化</a>
+                    <a href="/about_1">企业概况</a>
+                    <a href="/about_1#zhlv">公司战略</a>
+                    <a href="/about_1#qywh">企业文化</a>
                     <a href="/about_2">发展历程</a>
                     <a href="/about_6">公司荣誉</a>
                     <a href="/about_8">社会责任</a>

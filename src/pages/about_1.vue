@@ -5,7 +5,7 @@
             <div class="about_ctn">
                 <h2>关于我们</h2>
                 <div class="about_list">
-                    <a class="active">企业概况</a>
+                    <a  href="#qygk" class="active">企业概况</a>
                     <a>公司战略</a>
                     <a>企业文化</a>
                     <a href="/about_2">发展历程</a>
@@ -16,7 +16,7 @@
             </div>
         </div>
         <!--top-->
-        <div class="abo_top">
+        <div class="abo_top" id="qygk">
             <div class="tt">
                 <p>集专用车辆、环卫等高新技术装备的研发和制造，环境卫生项目投资与运营为一体的综合性提供商</p>
                 <ul>
@@ -105,7 +105,7 @@
                         $('html,body').animate({scrollTop: scrop_1-100});
                         break;
                     case 2:
-                        $('html,body').animate({scrollTop: scrop_2-80});
+                        $('html,body').animate({scrollTop: scrop_2-100});
                         break;
                     default:
                         break;

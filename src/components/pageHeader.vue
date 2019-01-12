@@ -33,13 +33,12 @@
                         </a>
                     </li>
                     <li  :class="{active: isActive.xw}">
-                        <a href="#">
+                        <a href="/news_5">
                             <span>新闻中心</span>
                         </a>
                         <div class="pump_slide xw-cet pump_slide-1 xw-cet-1">
                             <div class="lis">
                                 <div class="bbox">
-                                    <a href="/news_5">新闻中心</a>
                                     <a href="/news_2">公司新闻</a>
                                     <a href="/news_3">集团新闻</a>
                                     <a href="/news_1">视频新闻</a>
